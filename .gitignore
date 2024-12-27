@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Replit specific - we don't need these in GitHub
+.replit
+.breakpoints
+replit.nix
+poetry.lock
+.cache/
+.upm/
+.config/
+
+# Cache and logs
+*.log
+*.cache
+.cache/
+instance/
+.pytest_cache/
+__pycache__/
+.coverage
+
+# Misc
+.DS_Store
+Thumbs.db
+uv.lock
+
+# Project specific
+create_full_package.py
+create_minimal_zip.py
+create_project_zip.py
+download_instructions.txt
+verify_installation.py
